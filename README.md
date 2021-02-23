@@ -43,8 +43,6 @@ import com.ygw.luban.common.pojo.es.LearningReport;
 import com.ygw.luban.common.pojo.es.StudentAnswers;
 import com.ygw.luban.common.pojo.mongo.QuestionConnectionCell;
 import com.ygw.luban.common.pojo.mongo.QuestionOption;
-import com.ygw.luban.service.IStudentCourseArrangeService;
-import com.ygw.luban.service.es.ILearningReportESService;
 import com.ygw.luban.service.es.IStudentAnswerESService;
 import com.ygw.utils.DateUtil;
 import com.ygw.utils.Response;
@@ -55,7 +53,6 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import javax.servlet.http.HttpServletRequest;
 import java.math.BigDecimal;
 import java.util.ArrayList;
